@@ -9,7 +9,7 @@ func binarySearch(array:[Int],key:Int) -> Bool{
 	
 	let minIndex = 0
 	let maxIndex = array.count - 1
-	let midIndex = maxIndex/2 //(minIndex + maxIndex) + 1
+	let midIndex = maxIndex/2 
 	let midValue = array[midIndex]
 	
 	
